@@ -24,6 +24,7 @@
 }
 
 .weather-desc {
+  text-transform: capitalize;
   font-weight: 400;
   font-size: 16px;
   line-height: 1;
@@ -57,8 +58,4 @@
 }
 .parameter-value {
   font-weight: 600;
-}
-
-.parameter-label.top {
-  border-bottom: 1px solid #333;
 }
